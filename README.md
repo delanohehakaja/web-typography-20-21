@@ -1,83 +1,85 @@
 # Web Typography, 2020/2021
 
-Als je doof bent, of als je om een andere reden geen geluid kunt horen, dan mis je veel informatie als je een film kijkt. Knisperende voetstappen, langzaam aanzwellende muziek, nerveus getik op een deur, je hoort het natuurlijk allemaal niet. Nu bestaat er zoiets als *closed caption*, wat een type ondertiteling is waarbij ook dingen als omgevingsgeluiden en de muziek beschreven worden. Hierdoor krijgt een kijker die informatie wel binnen.
+## Kick-off 
+In de eerste week kreeg voor het vak webtypografie de opdracht te horen en begon ik al meteen met dingen toevoegen op css, om al gelijk wat te kunnen zien aan Darice.
+Wat ik meteen al had aangepast, was de kleur van de tekst zodat je al kan onderscheiden wie wat zegt. Daarnaast had ik de achtergrondkleur verandert naar rood, wanneer je een geluid hoort wat op een alarm lijkt en bij een alarm denk ik aan de kleur rood.
 
-Alleen wordt die auditieve informatie nogal neutraal beschreven. Het geluid van huilend persoon zou bijvoorbeeld beschreven kunnen worden als *snikgeluid op de achtergrond*. En iemand die lacht zou geschreven kunnen worden als *iemand lacht.* Heel neutraal, bijna zakelijk, en bovendien allebei in precies hetzelfde neutrale lettertype. Terwijl het toch echt over twee heel verschillende emoties gaat. 
+## Kennismaking met Darice
+Ook in de eerste week mochten ik en een paar klasgenoten kennismaken met Darice en we hadden een paar vragen opgesteld aan Darice. We begonnen met een aantal persoonlijke vragen, ze is blijkbaar op latere leeftijd doof geworden. Haar favoriete films zijn:
+- The Matrix
+- 10 things about you
 
-Dat kan visueel sterker. 
+Haar favoriete series zijn:
+- Friends
+- Fraser
 
-En dat gaan jullie doen.
+Zij houdt van deze films en series, omdat ze symbolisch en niet oppervlakkig zijn. Vervolgens stelden we vragen dat meer betrekking had op de opdracht.
 
-## Leerdoelen
+Wat Darice vervelend vindt aan ondertitelingen voor doven mensen is dat ze soms niet aangeven of er achtergrongeluiden aanwezig zijn of welk liedje er afgespeeld wordt. Zij wil juist graag weten wat er tijdens de film allemaal gaande is, inclusief het geluid. Daarnaast zou zij het fijn vinden als er grote dingen in beeld komen, zodat het ook echt leeft. Heel veel beweging vindt zij dan wel weer storend, maar af en toe kan het wel. Wat fijn voor haar leest is wanneer de tekst gecentreerd is en per kleur wordt aangegeven wie spreekt. 
 
-- Je kan de kennis over vormgeving die je hebt opgedaan tijdens de minor technisch toepassen met behulp van CSS
-- Je kan verborgen nuance uit een audiotrack overtuigend vertalen naar visuele (typografische) beelden
-- Je kan je typografische keuzes onderbouwen.
-- Je hebt de exclusive design principles gebruikt.
+Ik liet uiteindelijk nog het stukje zien wat ik op css al had gemaakt en ze zij dat ik al goed op weg was.
 
-## Oplevering
+## Versie 1
+Bij mijn eerste versie van de opdracht had ik de namen van de personen voor de ondertiteling toegevoegd wie wat zei. Vervolgens heb ik de tekst "fuck off, skin-job!" groot in beeld gezet, om de woede uit te stralen. Daarnaast heb ik op het eind van het filmpje de achtergrond van wit-geel-gifgroen-donkergroen laten overlopen.
 
-Je levert een werkende versie op, gemaakt met HTML, CSS en JavaScript. Deze staat op Github. In een duidelijke readme documenteer en onderbouw je je ontwerpkeuzes. Je developmentgeschiedenis is terug te vinden op GitHub.
+## Waar had ik moeite mee?
+Ik wilde ook als ondertiteling aangeven wanneer er bijvoorbeeld een alarm zou afgaan, alleen vond ik het lastig om het met de  captions te doen. Dus heb ik het uiteindelijk nog niet toegevoegd.
 
-Je levert ook een *screen recording* met audio op van je fragment. Dit is een video van de definitieve versie, gemaakt van jouw browserscherm.
+## Feedbackgesprek met Vasilis
+Het eerste feedback punt van Vasilis was dat ik het lettertype ook nog zou kunnen aanpassen per persoon, om het verschil nog meer te versterken.
 
-De beoordeling is mondeling en volgt [de rubric uit het beoordelingsformulier](web-typografie-beoordeling.pdf).
+Het tweede feedback punt van Vasilis was dat hij de achtergrond van geel naar gifgroen had willen zien, omdat gifgroen meer overeenkomt met het irritantste piep aan het einde van het filmpje.
 
-## Typografische restricties
+Het derde feedback punt van Vasilis was dat de tekst "fuck off, skin-job!" niet groot in beeld moest komen, omdat de man het niet schreeuwend zei maar zacht en geirriteerd.
 
-Je *moet* een van deze twee opties kiezen, en je keuze moet je onderbouwen. In je readme staat een uitleg over je overwegingen om de ene of de andere restrictie te kiezen.
+Tot slot vroeg ik nog aan Vasilis hoe ik het beste bij de ondertiteling kon aangeven als er bijvoorbeeld een alarm afging. Vasilis liet wat css code zien en zei dat ik het zou kunnen oplossen door een extra div toe te voegen.
 
-### Optie 1: Systeemfont
+## Versie 2
+Bij mijn tweede versie van de opdracht ben ik bezig geweest om de punten van mijn feedback aan te passen. Ik heb de typografie verandert per persoon, de achtergrond van wit-geel-gifgroen laten overlopen en de tekst "fuck off, skin-job!" juist verkleind, maar wel bold gemaakt. Zo kon ik laten zien dat hij de tekst fluisterend, maar wel met irritatie zei. Ook heb ik wat captions toegevoegd om bij de ondertiteling te laten zien wat er als geluid werd afgespeeld.
 
-De eerste optie is dat je gebruik maakt van het zogenaamde *systeemfont* van degene die naar jouw werk kijkt. Dit font verschilt per operating system, en het verschilt soms zelfs per versie van het operating system. Het is ook aan te passen door de gebruiker zelf. 
+Naast deze aanpassingen had ik ook met mijn klasgenoten iets afgesproken voor het volgende gesprek met Darice. We hadden het idee om per persoon ons te gaan richten op 1 specifiek element en het zoveel mogelijk te overdrijven, zodat we weten waar Darice haar grenzen ligt. Thijs hield zich bezig met het kleurgebruik, Fien met de tekst, Elaiza met omschrijven van geluid en ik moest mij bezig houden met het beeldscherm.
 
-Je hebt dus geen controle over welk lettertype er precies gebruikt wordt. Het levert dus een onzeker, en beperkt typografisch palet op. Je hebt geen *light* versies, of *extrabold*. En ook geen serif en sans-serif versie van dezelfde familie. In dit geval heb je alleen de beschikking over normal, **bold** en _italic_. Dit heeft natuurlijk ook zijn voordelen!
+In de eerste paar seconden van het filmpje hoor je een luide hoorn en dat wilde ik gebruiken om het beeldscherm te laten schudden van links naar rechts. 
 
-### Optie 2: Brenner
+Verder in het filmpje hoor je een hoge beep en zegt KD6-3.7: "...And blood-black nothingness began to spin" en dat wilde ik gebruiken om het beeldscherm te laten spinnen.
 
-Je kan er ook voor kiezen om gebruik te maken van de complete Brenner familie. Dit is een zeer uitgebreid en uiterst flexibel font. [Hier kan je je verdiepen in dit font](https://www.typotheque.com/blog/brenner_an_unusual_typeface_family_with_distinct_voices). Als je kiest voor dit font dan heb je de beschikking over een *sans serif*, een *condensed*, een *serif*, een *monotype*, een *slab*, een *display* en een *script* versie. En veel van deze versies hebben varianten van *light* tot *bold*, en allemaal zowel *bold* als *italic*.
+Ook hoor je een paar keer een irritante beep, waardoor ik op het idee kwam om het beeldscherm te verkleinen. Als ik een irritant geluid hoor dan wil ik juist weg van het geluid en daarom vond ik het idee van het beeldscherm te verkleinen er perfect bij passen.
 
-Met Brenner zijn er natuurlijk veel en veel meer mogelijkheden dan met systeemfonts. Dat kan zowel een voordeel als een nadeel zijn. 
+Wat ik als laatst heb toegevoegd was het beeldscherm laten inzoomen. Dat zie je op het laatst gebeuren, tijdens het veranderen van de achtergrond kleur wit-geel-gifgroen. Er onstaat op dat moment een focus en op de achtergrond hoor je een piep steeds luider worden, daarom wilde ik het beeldscherm laten inzoomen zodat je die extra focus naar voren brengt.
 
-Voor een overzicht, zie [de brenner.pdf](brenner.pdf).
+## Waar had ik moeite mee?
+Ik had eerst moeite met keyframen en het timen van het inzoomen van het scherm. Ik had een paar Youtube filmpjes gekeken en dat hielp mij heel erg erbij.
 
-## Het fragment
+Daarnaast probeerde ik, naast mijn focus op het beeldscherm, nog steeds bij de ondertiteling het geluid te beschrijven en heb ik veel captions toegevoegd. Toch lukte het nog steeds niet helemaal.
 
-Ik heb een fragment voorbereid. Het gaat om twee scenes uit *Blade Runner 2049*. De captions staan in de HTML, en ze verschijnen in sync met de video. [Kijk maar](closed-captions/index.html).
+## Feedbackgesprek met Darice
+Tijdens het feedbackgesprek was Darice erg enthousiast. Als feedback aan Thijs gaf zij dat de kleurgebruik goed was, maar hij wel moet letten op het contrast. 
 
-### De captions
+Bij Fien gaf ze de feedback dat de tekst op verschillende plekken niet perse effectief is. Een achtergrond kleur op de tekst vond zij niet storend als het niet een heel hard achtergrondkleur is. Ook gaf ze aan dat ze het fijn zou vinden als je met tekst aangeeft wie er spreekt.
 
-De captions staan in de html, in het bestand index.html. Je kan aan elke paragraaf eventueel een of meer classes toevoegen. Bijvoorbeeld `voice1` of `voice2 soft`. Classes voeg je handmatig toe in de html.
+Aan Elaiza gaf zij de feedback dat het omschrijven van geluid heel goed werkt en ook zij moet letten op het contrast.
 
-Met JavaScript worden er een paar dingen extra gedaan: 
+Tegen Max zei ze dat italic en gewone tekst heel duidelijk te onderscheiden is. Zij raadt aan het scherm donkerder te maken als het geluid zachter wordt.
 
-- er wordt aan elke paragraaf een unieke class toegevoegd (`p0`, `p1`, etc)
-- Elk woord wordt in een aparte `span` gezet. Hierdoor kan je elk woord apart stylen, en eventueel ook [na elkaar laten verschijnen](https://github.com/cmda-minor-vid/web-typography-18-19/blob/master/closed-captions/css.css#L41).
+Aan mij gaf ze de feedback dat ik het beeldscherm niet te klein moet maken, maar derest van de bewegingen van het beeldscherm vond ze niet storend.
 
-### Tijdens het afspelen
+## Feedbackgesprek met Vasilis
+Tijdens het feedbackgesprek met Vasilis kreeg ik de feedback dat de achtergrond wit-geel-gifgroen wat subtieler kon. Tijdens het filmpje hoor je namelijk ook heel subtiel de piep luider worden.
 
-Tijdens het afspeelen wordt er een class `on` op de caption gezet als hij moet verschijnen, en een class `off` als hij klaar is. *Zowel class `on` als class `off` blijft op de caption staan!*
+Ook gaf Vasilis een tip om before and after te gebruiken per sound om bij de ondertiteling te beschrijven welk geluid er wordt afgespeeld.
 
-De timimg van de captions kan je aanpassen in [closed-captions/captions.js](closed-captions/captions.js).
+## De laatste aanpassingen
+Ik heb als laatste aanpassingen de achtergrond wit-geel-gifgroen subtieler laten overlopen en heb ik uiteindelijk, met behulp van een klasgenoot, bij de ondertiteling elk geluid kunnen beschrijven.
 
-Er verschijnen ook classes op de body op momenten dat er geluiden worden afgespeeld, zoals `sound1` en `sound2`. Je kan geluiden toevoegen in [closed-captions/sounds.js](closed-captions/sounds.js).
+### Heb je de principes toegepast?
+**Study the situation**
+Elke week heb ik een gesprek gehad met zowel Darice als met Vasilis. Tijdens elk feedbackgesprek heb ik goed geluisterd en steeds de feedback toegepast.
 
-*let op,* de geluiden zijn niet compleet, dit zal je zelf moeten aanvullen.
+**Ignore Conventions**
+Wat er op het filmpje als ondertiteling staat is een standaard lettertype en altijd in het wit. Om dit saaie standaard te voorkomen heb ik kleur, italic en bold gebruikt toegevoegd op de tekst.
 
-## Een eigen fragment (afgeraden, uitgebreide onderbouwing is nodig)
+**Prioritize identity**
+Tijdens de gesprekken met zowel Darice als met Vasilis ben ik erachter gekomen dat kleurenscheiding, de naam van de spreker voor de tekst en het aangeven van geluid bij Darice past. Vasilis houdt vooral van veel gebeurtenissen op het scherm.
 
-Je kan er ook voor kiezen om een eigen, *beter* fragment te gebruiken. Dit wordt afgeraden. De tijd die je besteedt aan het zoeken naar dat fragment kan je beter besteden aan het werken aan de opdracht. Bovendien blijkt dat er vaak fragmenten worden gekozen die niet goed voldoen aan de opdracht. Als je een ander fragment kiest dan *moet* je dit goed onderbouwd voorleggen aan je docent. De deadline hiervoor is vrijdagochtend in de eerste week.
-
-### Waar moet je op letten bij het kiezen van een eigen fragment.
-Lees de opdracht nog eens goed door. Waar gaat het ook al weer precies om? 
-
-Voor een goede onderbouwing van je keuze voor een ander fragment moet je deze vragen in elk geval beantwoorden:
-
-- Welke informatie zit er in de audio die echt niet zichtbaar is?
-- Welke rol speelt de audio in het fragment?
-- Werkt de scene nog zonder geluid?
-- Waarom is dit fragment beter dan het aangeboden fragment?
-
-Je kan dan de nodige HTML en JavaScript genereren door gebruik te maken van [caption generator](https://cmda-minor-vid.github.io/web-typography-18-19/generator/) (in Google Chrome). 
-
-Als je de closed captions wil bewerken dan kan je een tool zoals [Amber Script](https://www.amberscript.com/en) gebruiken. Daar kan je exporteren als `.srt`, en die kan je weer door de generator halen.
+**Add nonsense**
+Om wat nonsens toe te voegen heb ik vooral gebruik gemaakt van het spelen met het beeldscherm. Bijvoorbeeld het schudden van het beeldscherm aan het begin van mijn filmpje of het in en uitzoomen door het filmpje heen.
